@@ -1,0 +1,25 @@
+Source: node-zmq
+Section: web
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: FIX_ME debian author
+Build-Depends:
+ debhelper (>= 8)
+ , dh-buildinfo
+ , nodejs
+Standards-Version: 3.9.6
+Homepage: https://github.com/JustinTulloss/zeromq.node#readme
+Vcs-Git: git://anonscm.debian.org/pkg-javascript/node-zmq.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-javascript/node-zmq.git
+
+Package: node-zmq
+Architecture: all
+Depends:
+ ${misc:Depends}
+ , nodejs
+ , node-nan (>= 2.3.0)
+ , node-bindings (>= 1.2.1)
+Description: Bindings for node.js and io.js to ZeroMQ
+ FIX_ME long description
+ .
+ Node.js is an event-based server-side JavaScript engine.
